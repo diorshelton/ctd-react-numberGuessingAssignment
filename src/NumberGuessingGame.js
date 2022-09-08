@@ -10,12 +10,6 @@ function getRandomNumber() {
 const MAX_ATTEMPTS = 5;
 
 const NumberGuessingGame = () => {
-	// const [guessObject, setGuessObject] = useState({
-	// 		numbertoGuess: getRandomNumber(),
-	// 		numberOfGuesses: 0,
-	// 		latestGuess: null,
-	// });
-
 	const [numberToGuess, setNumberToGuess] = useState(getRandomNumber());
 	const [numberOfGuesses, setNumberOfGuesses] = useState(0);
 	const [latestGuess, setLatestGuess] = useState(null);
