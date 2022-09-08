@@ -1,15 +1,15 @@
 import React, { Component } from "react";
-import NumberGuessingGame from "./NumberGuessingGame";
 import "./App.css";
+import NumberGuessingGame from "./NumberGuessingGame";
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <NumberGuessingGame />
-      </div>
-    );
-  }
+	render() {
+		return (
+			<div className="App">
+				<NumberGuessingGame />
+			</div>
+		);
+	}
 }
 
 export default App;
