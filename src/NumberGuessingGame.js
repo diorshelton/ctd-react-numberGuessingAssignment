@@ -17,7 +17,7 @@ const NumberGuessingGame = () => {
 	const handleGuess = (guess) => {
 		// set latest guess to value of guess input and increment number of guesses
 		setLatestGuess(Number(guess));
-		setNumberOfGuesses(numberOfGuesses + 1);
+		setNumberOfGuesses((prevNumOfGuesses) => prevNumOfGuesses + 1);
 	};
 
 	const handleReset = () => {
